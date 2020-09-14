@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!--
+  Jeyamerun Subhas
+  8/11/2020
+  Section: AE
+  TA: Jeff Worley
+  This is a portfolio website that contains some information about me.
+  Information such as my classes, favorite things, etc.
+-->
+
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section>
+      <h1>Merun's Page</h1>
+      <p>
+        Hey! My name is Jeyamerun Subhas, or Merun for short.
+        I am from Bothell, Washington, and I am a rising sophomore at the
+        University of Washington. Over mini-break, I binge-watched Outer Banks,
+        and I look forward to learning web dev in CSE 154.
+      </p>
+    </section>
+
+    <section>
+      <h2>My Favorite Courses</h2>
+      <ol>
+        <li>CSE 143</li>
+        <li>ECON 200</li>
+        <li>ENGL 199</li>
+        <li>CSE 154</li>
+      </ol>
+      <label for="course-title">Course Title:</label>
+      <input id="course-title" type="text">
+      <button id="courses">Add Your Own Favorite Courses!</button>
+    </section>
+
+    <section>
+      <h2>Five of My Favorite Things</h2>
+      <ul>
+        <li><strong>Favorite animal:</strong> Panda!</li>
+        <li><strong>Favorite food:</strong> Spicy Teriyaki Chicken</li>
+        <li><strong>Favorite TV show:</strong> The Office</li>
+        <li><strong>Favorite hobby:</strong> Sleeping</li>
+        <li><strong>Favorite sport:</strong> Water Polo</li>
+      </ul>
+
+      <h2>A picture that represents when I'm happy</h2>
+      <img src="img/piggy.png" alt="Floating on clouds">
+      <!-- This image was found https://www.openaccessbpo.com/blog/on-premises-vs-cloud-call-
+        centers-which-performs-better/ -->
+
+      <h2>A picture that represents when I'm sad</h2>
+      <img src="img/heart.jpg" alt="Stuck in ice">
+      <!-- This image was found https://www.deviantart.com/artmasterrich/art/Heart-Trapped-In-Ice-
+        434189969 -->
+
+      <button id="invert">Invert!</button>
+      <button id="revert">Revert!</button>
+
+      <h2>One of my favorite quotes</h2>
+      <article>
+        <blockquote>
+          <p>Don't count your days. Make your days count!</p>
+          <p>~Muhammad Ali</p>
+        </blockquote>
+      </article>
+
+      <h2>Lyrics from my Favorite Song, Never Gonna Give You Up by Rick Astley </h2>
+      <section id="song"></section>
+      <button id="lyrics">Generate Lyrics!</button>
+    </section>
+
+    <footer>
+      <p>Using the Lyrics API from <a href="https://lyricsovh.docs.apiary.io/#reference">here!</a></p>
+    </footer>
+  </body>
+</html>
